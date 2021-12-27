@@ -1,0 +1,68 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(202, 214, 202);
+}
+#drum-machine{
+    width: 65vw;
+    height: 60vh;
+    border: 2px solid rgb(245, 207, 40);
+    box-shadow: 2px 2px 2px 2px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    color: rgb(245, 207, 40);
+    box-shadow: 8px 8px 10px black;
+}
+
+#main-title {
+    font-size: 3.5vw;
+}
+#main-contents {
+    width: 50%;
+    height: 80%;
+    padding: 2px;
+    margin: 2px;
+    background-color: rgb(36, 36, 36);
+}
+
+#button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 90%;
+    margin-bottom: 1vh;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: rgb(36, 36, 36);
+}
+
+.drum-pad {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color:crimson;
+    font-weight: bolder;
+    margin: 0 2px;
+    box-shadow: 2px 2px 3px rgb(192, 192, 192);
+}
+
+.drum-pad:active {
+    background-color: rgb(214, 35, 35);
+    border: 1px solid black;
+}
+
+#display {
+    width: 100%;
+    text-align: center;
+    border: 2px solid rgb(245, 207, 40);
+    margin-bottom: 3vh;
+    height: 6vh;
+    font-size: 4vh;
+}
+
