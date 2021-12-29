@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+Drumkit project made for freecodecamp frontend libraries course
+
+Hosted: https://quizzical-ride-607a96.netlify.app/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
